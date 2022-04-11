@@ -1,9 +1,10 @@
 import './App.scss';
+import Headerinput from './Home/Headerinput/Headerinput';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello world</h1>
+       <Headerinput />
     </div>
   );
 }
