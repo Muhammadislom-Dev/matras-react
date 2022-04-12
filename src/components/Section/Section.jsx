@@ -4,7 +4,8 @@ const Section =()=>{
 return(
 <section className="p-4">
     <div className="container">
-        <div className="row row-cols-2 row-cols-md-4 g-4 text-center">
+        <div data-aos="fade-up"
+        data-aos-duration="2000" className="row row-cols-2 row-cols-md-4 g-4  text-center">
             <div className="section__page col">
                 <p className='section__number'>7</p>
                 <p className='section__text'>yillik tajriba</p>
