@@ -98,7 +98,7 @@ return(
                         aria-label="Close"></button>
                 </div>
                 <div className="modal-header header__modal">
-                    <h2 className="sidebar__names mx-5 px-4">Buyurtma qilish</h2>
+                    <h2 className="sidebar__names mx-4 px-3">Buyurtma qilish</h2>
                 </div>
                 <div className="modal-body">
                     <form className='navbar__form'>
@@ -109,12 +109,23 @@ return(
                         </div>
 
                         <h3 className='navbar__product'>Mahsulotlarni toifasini tanlang</h3>
-                        <select class="form-select form-select-lg mb-2" aria-label=".form-select-lg example">
+                        <select class="navbar__select form-select form-select-lg mb-2" aria-label=".form-select-lg example">
                             <option selected>..</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
                             <option value="3">Three</option>
                         </select>
+                        <h3 className='navbar__product'>Miqdorni tanlang</h3>
+
+                        <div className="sidebar__lists mt-2">
+                            <button className="sidebar__plus">-</button>
+                            <div className="sidebar__box"><p className='sidebar__number'>1</p></div>
+                            <button className="sidebar__plus">+</button>
+                        </div>
+                        <button type="button" className='sidebar__button'>
+                           Yuborish
+                        </button>
+
                     </form>
                 </div>
             </div>

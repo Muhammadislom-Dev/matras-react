@@ -77,8 +77,8 @@
 
     &__names{
         font-weight: 700;
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 30px;
+        line-height: 35px;
         color: #01384D; 
         font-family: 'Josefin Sans';
     }
@@ -95,6 +95,7 @@
         border: 2px solid #01384D;
         border-radius: 5px;
         box-sizing: border-box;
+        outline: none;
 
         &::placeholder{
         font-weight: 400;
@@ -145,10 +146,83 @@
         font-size: 18px;
         line-height: 18px;
         color: #01384D;
-        margin-top: 25px;
+        margin-top: 35px;
+    }
+
+    &__select{
+        width: 320px;
+        height: 50px;
+        border: 2px solid #01384D;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: #fff;
     }
 }
 
 .modal-content{
-    height: 450px;
+    height: 520px;
+    width: 360px;
+}
+
+.sidebar{
+
+    &__lists{
+        display: flex;
+        width: 320px;
+        align-items: center;
+    }
+
+    &__plus{
+        width:70px;
+        height: 50px;
+        border: 2px solid #01384D;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: #fff;
+        outline: none;
+        color: #01384D;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        font-family: 'Josefin Sans';
+    }
+
+    &__box{
+        width: 180px;
+        height: 50px;
+        border: 2px solid #01384D;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: #fff;
+        text-align: center;
+    }
+    &__number{
+        color: #01384D;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        font-family: 'Josefin Sans';
+        padding-top: 10px;
+    }
+
+    &__button{
+        width: 320px;
+        height: 45px;
+        background-color: #01384D;
+        color: #fff;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+        font-family: 'Josefin Sans';
+        border: 2px solid #01384D;
+        margin-top: 20px;
+        transition: 0.8s;
+
+        &:hover{
+            background-color: #fff;
+            color: #01384D;
+            transform: scale(0.9);
+        }
+    }
 }
