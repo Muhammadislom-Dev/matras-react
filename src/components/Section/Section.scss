@@ -1,4 +1,34 @@
 .section{
 
-    
+    &__number{
+        font-size: 90px;
+        line-height: 100px;
+        color: #01384D;
+        font-weight: bold;
+        font-family: 'Josefin Sans';
+    }
+
+    &__numbers{
+        font-size: 80px;
+        line-height: 99px;
+        color: #01384D;
+        font-weight: bold;
+        font-family: 'Josefin Sans';
+    }
+
+    &__text{
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: 700;
+        color: #01384D;
+        font-family: 'Josefin Sans';
+    }
+
+    &__page{
+        transition: 0.8s;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
 }
