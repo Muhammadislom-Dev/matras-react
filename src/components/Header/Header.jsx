@@ -3,6 +3,7 @@ import './Header.scss'
 import save from '../../assets/img/save.png'
 import arrow from '../../assets/img/Arrow.png'
 
+
 const Header = () =>{
 return(
 <div className="header">
@@ -19,7 +20,6 @@ return(
                 </div>
             </div>
             <div className="pt-5 mt-5 col-xl-7 col-lg-6 col-md-10 text-lg-end text-center">
-
                 <div id="carouselExampleIndicators" className="header__page carousel slide" data-bs-ride="carousel">
                     <div className="carousel-indicators mb-4" >
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
