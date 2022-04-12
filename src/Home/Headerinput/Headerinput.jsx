@@ -1,4 +1,4 @@
-import Navbar from '../../components/Navbar/Navbar'
+import Header from '../../components/Header/Header'
 import Sidebar from '../../components/Sidebar/Sidebar'
 import './Headerinput.scss'
 
@@ -7,7 +7,7 @@ const Headerinput = () =>{
         <div className='headerinput'>
            <div className="headerinput__page">
               <Sidebar />
-              {/* <Navbar /> */}
+              <Header />
            </div>
         </div>
     )
