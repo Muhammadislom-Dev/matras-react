@@ -1,43 +1,50 @@
 import './Sidebar.scss'
 
 //Images
-import bed from '../../assets/img/bed.png'
+import call from "../../assets/img/Call.png"
+import bed from "../../assets/img/bed.png"
 
 const Sidebar = () =>{
-    return(
-        <div className="navbar">
-            <div className="container">
-                <ul className="navbar__list">
-                    <li className="navbar__item">
-                        <a href="#" className="navbar__link">Katalog</a>
-                    </li>
-                    <li className="navbar__item">
-                        <a href="#" className="navbar__link">Aksiya</a>
-                    </li>
-                    <li className="navbar__item">
-                        <a href="#" className="navbar__link">Biz haqimizda</a>
-                    </li>
-                    <li className="navbar__item">
-                        <a href="#" className="navbar__link">Manzilimiz</a>
-                    </li>
-                    <li className="navbar__item">
-                        <a href="#" className="navbar__link">Aloqa</a>
-                    </li>
-                </ul>
-                
-                <div className="navbar__page">
-                    <div className="navbar__box">
-                        <img src={bed} alt="" className="navbar-img" />
-                        <h3 className='navbar__name'>Matrassue</h3>
-                    </div>
-                    <div className="navbar__box">
-                        <a href="#" className="navbar__phone">+998 90 123 45 67</a>
-                        <button className="navbar__btn">Buyurtma berish</button>
-                    </div>
-                </div>
-            </div>
+return(
+<div className="navbar navbar-expand-lg navbar-light">
+    <div className="container">
+        <div className="navbar__page">
+            <a href="#" className="navbar__linkss">
+                <img src={bed} alt="" className="navbar__pic px-2" />
+                Matrassue
+            </a>
         </div>
-    )
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="navbar__box collapse navbar-collapse" id="navbarText">
+            <ul className="navbar-nav me-auto mb-2    mb-lg-0">
+                <li className="navbar__item">
+                    <a className="navbar__link" aria-current="page" href="#">Katalog</a>
+                </li>
+                <li className="navbar__item">
+                    <a className="navbar__link" href="#">Aksiya</a>
+                </li>
+                <li className="navbar__item">
+                    <a className="navbar__link" href="#">Biz haqimizda</a>
+                </li>
+                <li className="navbar__item">
+                    <a className="navbar__link" href="#">Manzilimiz</a>
+                </li>
+                <li className="navbar__item">
+                    <a className="navbar__link" href="#">Aloqa</a>
+                </li>
+            </ul>
+            <span className="navbar-text">
+                <a href="/" className="navbar__links text-decoration-none mx-2 align-items-center">
+                    <img className="" src={call} />+998 99 123 45 67</a>
+                <button type="button" className="navbar__btn m-2">Buyurtma berish</button>
+            </span>
+        </div>
+    </div>
+</div>
+)
 }
 
 export default Sidebar

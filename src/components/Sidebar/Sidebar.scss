@@ -1,66 +1,51 @@
 .navbar{
 
-    &__page{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    &__box{
-        display: flex;
-        align-items: center;
-    }
-
-    &__list{
-        display: flex;
-        justify-content: flex-end;
-        list-style: none;
-    }
-
-    &__item{
-        margin: 8px 25px;
-    }
-
     &__link{
-        text-decoration: none;
         font-weight: 400;
         font-size: 12px;
         line-height: 12px;
         color: #01384D;
-        font-family:  'Josefin Sans';
-    }
-
-    &__name{
-        font-family: 'Sail';
-        font-weight: 400;
-        font-size: 22px;
-        line-height: 25px;
-        color: #01384D;
         text-decoration: none;
-        padding: 10px;
     }
 
-    &__phone{
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 18px;
-        color: #01384D;
-        text-decoration: none;
-        padding: 10px;
-        font-family: 'Josefin Sans';
+    &__item{
+        margin: 10px;
     }
-
     &__btn{
-        border: 2px solid #01384D;
-        box-sizing: border-box;
-        border-radius: 5px;
-        background-color: #fff;
+        font-family: 'Josefin Sans';
         width: 180px;
         height: 45px;
+        background-color: #fff;
+        border: 2px solid #01384D;
+        box-sizing: border-box;
+        border-radius: 5px; 
         font-weight: 400;
         font-size: 16px;
         line-height: 16px;
         color: #01384D;
+        transition: 0.7s;
+
+        &:hover{
+            transform: scale(0.90);
+            background-color: #01384D;
+            color: #fff;
+        }
+    }
+    &__links{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #01384D;
         font-family: 'Josefin Sans';
+    }
+
+    &__linkss{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 25px;
+        color: #01384D;
+        font-family: 'Beau Rivage', cursive;
+        letter-spacing: 2px;
     }
 }
