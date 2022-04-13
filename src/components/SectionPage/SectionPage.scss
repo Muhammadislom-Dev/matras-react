@@ -1,0 +1,53 @@
+.sectionpage{
+
+    &__name{
+        text-align: center;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: #01384D;
+    }
+
+    &__list{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        padding: 0 35px;
+    }
+    &__item, &__items{
+        margin: 0px 20px;
+    }
+    &__link{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #01384D;
+    }
+
+    &__link:active{
+        border-bottom: 2px solid #01384D;
+        transition: 0.8s;
+    }
+
+    &__items{
+        background: #E6EBED;
+        // opacity: 0.4;
+        border-radius: 5px;
+        width: 130px;
+        height: 45px;
+        text-align: center;
+    }
+    &__links{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #01384D;
+        position: relative;
+        top: 20%;
+        left:0%;
+        text-decoration: none;
+    }
+}
