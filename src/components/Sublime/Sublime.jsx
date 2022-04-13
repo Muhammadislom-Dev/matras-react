@@ -11,10 +11,20 @@ return(
             <button type="button" className="sublime__btn  mt-5">Yangi mahsulot</button>
             <p className="sublime__name p-4 text-center ">
                 Ortopedik Eko matras</p>
-            <div className=" col-xl-7 col-lg-6 col-md-12 ">
+            <div
+            data-aos="fade-right"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="3000"
+            className=" col-xl-7 col-lg-6 col-md-12 ">
                 <img src={safe} alt="" className="sublime__img img-fluid  "  />
             </div>
-            <div className=" col-xl-5 col-lg-6 col-md-12">
+            <div 
+            data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="3000" 
+            className=" col-xl-5 col-lg-6 col-md-12">
                 <div className="row row-cols-2 row-cols-md-4 g-4  text-center">
                     <div className="sublime__list py-5 py-lg-0">
                         <p className='sublime__names'>Yuklama</p>

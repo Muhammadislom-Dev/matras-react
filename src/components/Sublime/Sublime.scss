@@ -47,6 +47,18 @@
         line-height: 14px;
         font-family: 'Josefin Sans';
         letter-spacing: 1.5px;
+        transition: 0.7s;
+
+        &:hover{
+            background-color: #fff;
+            color: #FF6B6B;
+            transform: scale(0.85);
+        }
+    }
+
+    &__btn:active{
+        background-color: #F6FBFF;
+        color: #FF6B6B;
     }
 
     &__button{
