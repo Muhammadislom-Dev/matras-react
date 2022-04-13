@@ -1,0 +1,90 @@
+.sublime{
+
+    &__page{
+        background: #F6FBFF;
+        border: 1px solid #C7DFF5;
+        box-sizing: border-box;
+    }
+
+    &__img{
+        width: 650px;
+    }
+
+    &__name{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        color: #01384D;
+        font-family: 'Josefin Sans';
+    }
+
+    &__names{
+        font-family: 'Josefin Sans';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        opacity: 0.6;
+        color: #01384D;
+    }
+
+    &__number{
+        font-family: 'Josefin Sans';
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        color: #01384D;
+    }
+
+    &__btn{
+        background: #FF6B6B;
+        border-radius: 5px;
+        width: 190px;
+        height: 38px;
+        border: 2px solid #FF6B6B;
+        color: #fff;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+        font-family: 'Josefin Sans';
+        letter-spacing: 1.5px;
+    }
+
+    &__button{
+        border: 2px solid #01384D;
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 180px;
+        height: 45px;
+        background-color: #fff;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #01384D;
+        transition: 0.8s;
+
+        &:hover{
+            transform: scale(0.9);
+        }
+    }
+
+    &__text{
+        font-family: 'Josefin Sans';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        opacity: 0.6;
+        color: #01384D;
+    }
+
+    &__list{
+        margin-left: -15px;
+    }
+}
+
+
+span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #01384D;
+}

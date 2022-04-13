@@ -5,6 +5,7 @@ import React , { useEffect } from 'react'
 import Section from './components/Section/Section';
 import Headerinput from './Home/Headerinput/Headerinput';
 import SectionPage from './components/SectionPage/SectionPage';
+import Sublime from './components/Sublime/Sublime';
 
 function App() {
   useEffect(() =>{
@@ -15,6 +16,7 @@ function App() {
        <Headerinput />
        <Section />
        <SectionPage />
+       <Sublime />
     </div>
   );
 }
