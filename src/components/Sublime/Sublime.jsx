@@ -35,8 +35,8 @@ return(
                         <p className='sublime__number'>3 <span>yil</span></p>
                     </div>
                     <div className="sublime__list py-5 py-lg-0">
-                        <p className='sublime__names'>O'lchami</p>
-                        <p className='sublime__number'>200x120x40</p>
+                        <p className='sublime__names sublime__full'>O'lchami</p>
+                        <p className='sublime__number sublime__nums'>200x120x40</p>
                     </div>
                     <div className="sublime__list py-5 py-lg-0">
                         <p className='sublime__names'>Sig'imi</p>

@@ -8,6 +8,11 @@
 
     &__img{
         width: 650px;
+        transition: 1.2s;
+
+        &:hover{
+            transform: scale(0.8);
+        }
     }
 
     &__name{
@@ -91,6 +96,10 @@
     &__list{
         margin-left: -15px;
     }
+
+    &__full{
+        margin-left: -40px;
+    }
 }
 
 
@@ -99,4 +108,19 @@ span{
     font-size: 16px;
     line-height: 16px;
     color: #01384D;
+}
+
+@media (max-width:400px) {
+
+    .sublime__list{
+        margin-bottom: -80px;
+        margin-left: -40px;
+    }
+
+    .sublime__full{
+        margin-left: 0px;
+    }
+    .sublime__nums{
+        margin-left: 55px;
+    }
 }
