@@ -30,7 +30,7 @@ return(
                 <img src={safe} alt="" className="sublime__img img-fluid  " />
                 <button type="button" className="sublime__zooms" data-bs-toggle="modal" data-bs-target="#exampleModals"
                     data-bs-whatever="@mdo">
-                        <img src={zoom} alt="" />
+                        <img className='sublime__zoom' src={zoom} alt="" />
                 </button>
 
             </div>
