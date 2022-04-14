@@ -117,9 +117,10 @@
     }
 }
 
-.modal-content{
+.sublime-modal{
     width: 500px;
     height: 360px;
+    background-color: #C7DFF5;
 }
 
 
@@ -142,5 +143,46 @@ span{
     }
     .sublime__nums{
         margin-left: 55px;
+    }
+}
+
+@media (max-width:500px) {
+    
+    .sublime-modal{
+        width: 440px;
+    }
+    .sublime-picture{
+        width: 350px;
+    }
+}
+
+@media (max-width:450px) {
+    
+    .sublime-modal{
+        width: 400px;
+    }
+
+    .sublime-picture{
+        width: 300px;
+    }
+}
+
+@media (max-width:400px) {
+    
+    .sublime-modal{
+        width: 360px;
+    }
+
+    // .sublime__zooms{
+    //     position: absolute;
+    //     top: 85%;
+    //     left: 85%;
+    //     width: 55px;    
+    //     height: 55px;
+
+    // }
+
+    .sublime-picture{
+        width: 330px;
     }
 }

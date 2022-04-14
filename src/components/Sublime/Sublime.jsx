@@ -4,6 +4,7 @@ import safe from '../../assets/img/safe.png'
 import shop from '../../assets/img/shop.png'
 import zoom from '../../assets/img/zoom.png'
 import save from '../../assets/img/save.png'
+// import safe2 from '../../assets/img/safe2.png'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Navigation, Thumbs } from "swiper";
 import React, { useRef, useState } from "react";
@@ -30,7 +31,7 @@ return(
                 <button type="button" className="sublime__zooms" data-bs-toggle="modal" data-bs-target="#exampleModals"
                     data-bs-whatever="@mdo">
                         <img src={zoom} alt="" />
-                    </button>
+                </button>
 
             </div>
             <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="3000"
@@ -68,7 +69,7 @@ return(
 
         <div class="modal fade" id="exampleModals" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content">
+                <div class="modal-content sublime-modal">
                     <div class="modal-header">
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
