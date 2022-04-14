@@ -35,7 +35,7 @@ export default function Aside () {
 
                 <button type="button" className="sublime__zooms" data-bs-toggle="modal" data-bs-target="#exampleModals"
                     data-bs-whatever="@mdo">
-                    <img src={zoom} alt="" />
+                    <img className='sublime__zoom' src={zoom} alt="" />
                 </button>
             </div>
             <div 
@@ -70,7 +70,8 @@ export default function Aside () {
                     <p className='aside__num'>1 999 999 so'm </p> 
                     <p className='aside__numbers'>1 199 999 so'm</p>
                     </div>
-                    <button type="button" className="aside__button mt-3">Buyurtma berish
+                    <button type="button" className="aside__button mt-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Buyurtma berish
                     <img className="mx-2" src={shop} /></button>
                 </div>
             </div>

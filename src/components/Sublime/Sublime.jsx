@@ -61,7 +61,8 @@ return(
                         varius egestas.</p>
                     <p className='sublime__names'>Narxi</p>
                     <p className='sublime__number'>1 699 999 so'm</p>
-                    <button type="button" className="sublime__button mt-3">Buyurtma berish
+                    <button type="button" className="sublime__button mt-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Buyurtma berish
                         <img className="mx-2" src={shop} /></button>
                 </div>
             </div>
