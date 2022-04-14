@@ -2,10 +2,21 @@ import './Sublime.scss'
 
 import safe from '../../assets/img/safe.png'
 import shop from '../../assets/img/shop.png'
-// import zoom from '../../assets/img/zoom.png'
+import zoom from '../../assets/img/zoom.png'
 import save from '../../assets/img/save.png'
+import { Swiper, SwiperSlide } from "swiper/react";
+import { FreeMode, Navigation, Thumbs } from "swiper";
+import React, { useRef, useState } from "react";
 
-const Sublime = ()=>{
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/navigation";
+import "swiper/css/thumbs";
+
+export default function Sublime() {
+    const [thumbsSwiper, setThumbsSwiper] = useState(null);
+
+
 return(
 <div className="sublime">
     <div className="container sublime__page">
@@ -16,8 +27,10 @@ return(
             <div data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="3000"
                 className=" col-xl-7 col-lg-6 col-md-12 ">
                 <img src={safe} alt="" className="sublime__img img-fluid  " />
-                <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModals"
-                    data-bs-whatever="@mdo">Open modal for @mdo</button>
+                <button type="button" className="sublime__zooms" data-bs-toggle="modal" data-bs-target="#exampleModals"
+                    data-bs-whatever="@mdo">
+                        <img src={zoom} alt="" />
+                    </button>
 
             </div>
             <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="3000"
@@ -59,30 +72,57 @@ return(
                     <div class="modal-header">
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src={save} class="d-block w-100" alt="..." />
-                                </div>
-                                <div class="carousel-item">
-                                    <img src={save} class="d-block w-100" alt="..." />
-                                </div>
-                                <div class="carousel-item">
-                                    <img src={save} class="d-block w-100" alt="..." />
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button"
-                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
+                    <div class="modal-body sublime__swiper">
+                    <Swiper
+        style={{
+          "--swiper-navigation-color": "#fff",
+          "--swiper-pagination-color": "#fff",
+        }}
+        spaceBetween={10}
+        navigation={true}
+        thumbs={{ swiper: thumbsSwiper }}
+        modules={[FreeMode, Navigation, Thumbs]}
+        className="mySwiper2"
+      >
+        <SwiperSlide>
+          <img className='sublime__picture img-fluid' src={save} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className='sublime__picture img-fluid' src={save} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className='sublime__picture img-fluid' src={save} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className='sublime__picture img-fluid' src={save} />
+        </SwiperSlide>
+        </Swiper>
+
+
+
+        <Swiper
+        onSwiper={setThumbsSwiper}
+        spaceBetween={10}
+        slidesPerView={4}
+        freeMode={true}
+        watchSlidesProgress={true}
+        modules={[FreeMode, Navigation, Thumbs]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <img  className='sublime__picture img-fluid' src={save} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className='sublime__picture img-fluid' src={save} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className='sublime__picture img-fluid' src={save} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className='sublime__picture img-fluid' src={save} />
+        </SwiperSlide>
+
+        </Swiper>
                     </div>
                 </div>
             </div>
@@ -91,4 +131,3 @@ return(
 </div>
 )
 }
-export default Sublime
