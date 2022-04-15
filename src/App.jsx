@@ -7,6 +7,7 @@ import Headerinput from './Home/Headerinput/Headerinput';
 import SectionPage from './components/SectionPage/SectionPage';
 import Sublime from './components/Sublime/Sublime';
 import Aside from './components/Aside/Aside';
+import Box from './components/Box/Box';
 
 function App() {
   useEffect(() =>{
@@ -19,6 +20,7 @@ function App() {
        <SectionPage />
        <Sublime />
        <Aside />
+       <Box />
     </div>
   );
 }
