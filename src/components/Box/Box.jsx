@@ -47,7 +47,7 @@ const Box = ()=>{
                       </button>
                        <img src={matras2} className="card-img-top" alt="..." />
                     <div className="card-body">
-                      <p className="card-text box__text text-center">Enim urna consequat, justo, cras tincidunt imperdiet orci sodales. Dui purus feugiat morbi quam orci, vel. Elementum  ultricies venenatis rhoncus.</p>
+                      <p className="card-text box__text text-center">Enim urna consequat, justo, cras tincidunt imperdiet orci sodales. Dui purus feugiat morbi quam orci, vel. Elementum  ultricies venenatis.</p>
                     </div>
                   </div>
                 </div>
