@@ -1,0 +1,107 @@
+.box{
+    padding-top: 25px;
+    margin-top: 25px;
+
+    &__names{
+        text-align: center;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        color: #01384D;
+        font-family: 'Josefin Sans';
+    }
+
+    &__name{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #01384D;
+        font-family: 'Josefin Sans';
+    }
+
+    &__text{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: #01384D;
+        font-family: 'Josefin Sans';
+    }
+
+    &__btn{
+        background: #01384D;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: transparent;
+        // text-align: center;
+        position: absolute;
+        top: 29%;
+        left: 41%;
+    }
+
+    &__img{
+        margin:5px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:380px) {
+    
+    .box{
+
+        &__names{
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 36px;
+        }
+
+        &__name{
+            font-weight: 600;
+            font-size: 26px;
+            line-height: 26px;
+        }
+
+        &__text{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+
+    }
+    .card{
+        width: 320px;
+        margin-left: -28px;
+    }
+}
+
+@media (max-width:420px) {
+    
+    .box{
+
+        &__names{
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 36px;
+        }
+
+        &__name{
+            font-weight: 600;
+            font-size: 26px;
+            line-height: 26px;
+        }
+
+        &__text{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+
+    }
+    .card{
+        width: 340px;
+        margin-left: -20px;
+    }
+}
