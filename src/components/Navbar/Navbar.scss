@@ -1,0 +1,42 @@
+.navbar{
+    padding: 20px;
+
+    &__name{
+        font-size: 50px; 
+        line-height: 64px; 
+        color: #01384D; 
+        font-weight: bold;
+        font-family: serif;
+    }
+
+    &__text{
+        color: #01384D; 
+        font-size: 16px; 
+        font-weight: 600; 
+        line-height: 26px;
+        font-family: serif;
+    }
+
+    &__title{
+        border: 2px solid #01384D;
+        box-sizing: border-box;
+        border-radius: 8px;
+        background-color: #EABF9F;
+    }
+
+    &__btns{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #01384D;
+        border: transparent;
+        position: absolute;
+        left: 54%;
+        top: 45%;
+    }
+
+    &__img{
+        margin: 5px;
+        margin-left: 7px;
+    }
+}
