@@ -9,6 +9,7 @@ import Sublime from './components/Sublime/Sublime';
 import Aside from './components/Aside/Aside';
 import Box from './components/Box/Box'; 
 import Navbar from './components/Navbar/Navbar';
+import Sofapage from './components/Sofapage/Sofapage';
 
 
 function App() { 
@@ -24,6 +25,7 @@ function App() {
        <Aside />
        <Box />
        {/* <Navbar /> */}
+       <Sofapage />
     </div>
   );
 }
