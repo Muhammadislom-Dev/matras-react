@@ -22,7 +22,7 @@ const Sofapage =() =>{
                     </p>
                 </div>
             </div>
-            <div data-aos="zoom-out-left" className=" py-3 col-xl-7 col-lg-6 col-md-10 text-lg-end text-center">
+            <div data-aos="zoom-out-left" className=" py-3 col-xl-7 col-lg-6 col-md-10 ">
                 {/* <button className="sofapage__btnss">
                     <img className='sofapage__img' src={button} alt="" />
                 </button> */}

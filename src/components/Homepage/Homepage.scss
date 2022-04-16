@@ -1,0 +1,25 @@
+.homepage{
+
+    &__text{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #01384D;
+        font-family: 'Josefin Sans';
+    }
+
+    &__name{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #01384D;
+        font-family: 'Josefin Sans';
+    }
+
+    &__list{
+        background: #EABF9F;
+        border: 2px solid #01384D;
+        box-sizing: border-box;
+        border-radius: 8px;
+    }
+}

@@ -8,8 +8,8 @@ import SectionPage from './components/SectionPage/SectionPage';
 import Sublime from './components/Sublime/Sublime';
 import Aside from './components/Aside/Aside';
 import Box from './components/Box/Box'; 
-import Navbar from './components/Navbar/Navbar';
 import Sofapage from './components/Sofapage/Sofapage';
+import Homepage from './components/Homepage/Homepage';
 
 
 function App() { 
@@ -24,8 +24,8 @@ function App() {
        <Sublime />
        <Aside />
        <Box />
-       {/* <Navbar /> */}
-       <Sofapage />
+       {/* <Sofapage /> */}
+       <Homepage />
     </div>
   );
 }
