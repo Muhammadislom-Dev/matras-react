@@ -8,7 +8,7 @@ import SectionPage from './components/SectionPage/SectionPage';
 import Sublime from './components/Sublime/Sublime';
 import Aside from './components/Aside/Aside';
 import Box from './components/Box/Box'; 
-// import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
 
 
 function App() { 
@@ -16,13 +16,13 @@ function App() {
     Aos.init({});
   }, []);
   return (
-    <div className="app">
+    <div className="App">
        <Headerinput />
-       <Section />
+       <Section /> 
        <SectionPage />
        <Sublime />
        <Aside />
-       {/* <Box /> */}
+       <Box />
        {/* <Navbar /> */}
     </div>
   );

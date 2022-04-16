@@ -62,8 +62,6 @@ return(
                 <span className="navbar-text px-3">
                     <a href="/" className="navbar__links text-decoration-none mx-3 align-items-center">
                         <img className="" src={call} />+998 99 123 45 67</a>
-                    {/* <button type="button" className="navbar__btn mx-4 m-2" onClick={openModal}>Buyurtma
-                        berish</button> */}
                     <button type="button" class="navbar__btn mx-4 m-2" data-bs-toggle="modal"
                         data-bs-target="#exampleModal">
                         Buyurtma berish
