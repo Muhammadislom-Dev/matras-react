@@ -6,7 +6,7 @@ import person1 from '../../assets/img/persons.png'
 
 const Swiper = () =>{
     return(
-        <div className="swiper">
+        <div className="swiper py-5 my-5">
             <div className="container">
                  <p className="swiper__name">Nega bizni tanlashdi</p>
 

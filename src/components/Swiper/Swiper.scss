@@ -1,6 +1,6 @@
 .swiper{
-    padding-top: 45px;
-    padding-bottom: 15px;
+    // padding-top: 45px;
+    // padding-bottom: 15px;
 
     &__names{
         font-weight: 700;
@@ -32,5 +32,19 @@
         box-sizing: border-box;
         border-radius: 5px;
         height: 380px;
+    }
+}
+
+
+@media (max-width:380px) {
+    
+    .swiper__list{
+        background-color: red;
+        margin-left: 10px;
+    }
+
+    .swiper__name{
+        font-size: 28px;
+        line-height: 28px;
     }
 }

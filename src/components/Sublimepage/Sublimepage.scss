@@ -1,0 +1,33 @@
+.sublimepage{
+    margin-top: 50px;
+
+    &__name{
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        color: #01384D;
+        font-family: 'Josefin Sans';
+    }
+    &__text{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px;
+        color: #01384D;
+    }
+
+    &__texts{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #01384D;
+    }
+
+    &__btn{
+        border: 2px solid #01384D;
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 280px;
+        height: 50px;
+        background-color: #fff;
+    }
+}

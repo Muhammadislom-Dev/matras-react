@@ -12,6 +12,7 @@ import Box from './components/Box/Box';
 import Homepage from './components/Homepage/Homepage';
 // import { Swiper } from 'swiper/react';
 import Swiper from './components/Swiper/Swiper';
+import Sublimepage from './components/Sublimepage/Sublimepage';
 
 
 function App() { 
@@ -29,6 +30,7 @@ function App() {
        {/* <Sofapage /> */}
        <Homepage />
        <Swiper />
+       <Sublimepage />
     </div>
   );
 }
