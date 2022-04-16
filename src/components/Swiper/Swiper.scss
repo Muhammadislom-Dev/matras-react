@@ -1,4 +1,6 @@
 .swiper{
+    margin: 25px;
+    padding-top: 25px;
 
     &__names{
         font-weight: 700;
@@ -6,5 +8,29 @@
         line-height: 24px;
         color: #01384D;
         font-family: 'Josefin Sans';
+    }
+    &__name{
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        color: #01384D;
+        font-family: 'Josefin Sans';
+        text-align: center;
+    }
+
+    &__text{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #01384D;
+        opacity: 0.7;
+        font-family: 'Josefin Sans';
+    }
+
+    &__list{
+        border: 2px solid #01384D;
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 370px;
     }
 }

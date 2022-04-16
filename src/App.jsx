@@ -8,8 +8,10 @@ import SectionPage from './components/SectionPage/SectionPage';
 import Sublime from './components/Sublime/Sublime';
 import Aside from './components/Aside/Aside';
 import Box from './components/Box/Box'; 
-import Sofapage from './components/Sofapage/Sofapage';
+// import Sofapage from './components/Sofapage/Sofapage';
 import Homepage from './components/Homepage/Homepage';
+// import { Swiper } from 'swiper/react';
+import Swiper from './components/Swiper/Swiper';
 
 
 function App() { 
@@ -26,6 +28,7 @@ function App() {
        <Box />
        {/* <Sofapage /> */}
        <Homepage />
+       <Swiper />
     </div>
   );
 }

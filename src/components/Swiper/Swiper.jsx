@@ -12,7 +12,7 @@ const Swiper = () =>{
 
                  <div className=" row row-cols-1 row-cols-md-3 g-4">
                 <div className="col">
-                  <div className="card h-100">
+                  <div className="swiper__list card h-100">
                     <img src={car} className="card-img-top" alt="..." />
                     <div className="card-body">
                       <h5 className="swiper__names card-title text-center" >Yetkazib berish</h5>
@@ -21,7 +21,7 @@ const Swiper = () =>{
                   </div>
                 </div>
                 <div className="col">
-                  <div className="card h-100">
+                  <div className="swiper__list card h-100">
                     <img src={person} className="card-img-top" alt="..." />
                     <div className="card-body">
                       <h5 className="swiper__names card-title text-center" >Qo'llab quvvatlash</h5>
@@ -30,7 +30,7 @@ const Swiper = () =>{
                   </div>
                 </div>
                 <div className="col">
-                  <div className="card h-100">
+                  <div className="swiper__list card h-100">
                     <img src={person1} className="card-img-top" alt="..." />
                     <div className="card-body">
                       <h5 className="swiper__names card-title text-center"  >Kafolat</h5>
