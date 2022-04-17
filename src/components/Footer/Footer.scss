@@ -13,4 +13,49 @@
     &__nav{
         display: flex;
     }
+
+    &__lists{
+        width: 120px;
+        height: 50px;
+        margin-right: 3px;
+        background-color: #0A142F;
+        color: #fff;
+        text-align: center;
+    }
+    &__text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        color: #01384D;
+    }
+
+    &__img{
+        width: 40px;
+        height: 40px;
+        margin-top: 12px;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width:380px) {
+    
+
+    .footer{
+
+        &__text{
+            font-size: 12px;
+        }
+
+        &__lists{
+            width: 110px;
+            height: 45px;
+            margin-right: 3px;
+            background-color: #0A142F;
+            color: #fff;
+            text-align: center;
+            font-size: 13px;
+        }
+    }
 }
