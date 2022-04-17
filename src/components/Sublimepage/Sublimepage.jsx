@@ -15,8 +15,14 @@ return(
         <div class=" row align-items-center g-0">
             <div class="col-xl-5 col-lg-6 col-md-12">
                 <p className='sublimepage__name'>Manzilimiz</p>
-                <div class="py-5 py-lg-0">
-                    <div className='sublimepage__title'>
+                <div 
+                 data-aos="fade-right"
+                 data-aos-anchor="#example-anchor"
+                 data-aos-offset="500"
+                 data-aos-duration="2500" 
+                  className="py-5 py-lg-0">
+                    <div
+                    className='sublimepage__title'>
                         {active === "firstcard" &&
                         <Card data={Data} cardIndex={0} /> }
                         {active === "secondcard" &&
@@ -30,7 +36,12 @@ return(
                             src={location} />Geolakatsiya</button>
                 </div>
             </div>
-            <div class=" col-xl-7 col-lg-6 col-md-12 text-lg-end text-center pb-4">
+            <div 
+            data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="2500" 
+            className=" col-xl-7 col-lg-6 col-md-12 text-lg-end text-center pb-4">
                 <img src={home} alt="" class="img-fluid" />
                 <div className="sublimepage__list">
                     <button className='sublimepage__button' onClick={()=> setActive("firstcard") }></button>

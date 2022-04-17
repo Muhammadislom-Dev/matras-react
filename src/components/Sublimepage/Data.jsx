@@ -2,7 +2,7 @@ export default [
     [
         {
             title:"Toshkent, Parkent ko'chasi, 176-uy",
-            name:"Mo’ljal: Qoraqamish 2/1, Tursunxodjayeva ro’parasi, Minor metro bekati."
+            name:"Mo’ljal: Qoraqamish Tursunxodjayeva ro’parasi, Minor metro bekati."
         }
     ],
     [

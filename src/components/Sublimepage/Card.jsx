@@ -7,7 +7,7 @@ const Card = ({data, cardIndex}) =>{
                 data[cardIndex].map(item =>(
                     <div className='card'>
                         <p className='sublimepage__text'>{item.title}</p>
-                        <p className='sublimepage__text'>{item.name}</p>
+                        <p className='sublimepage__texts'>{item.name}</p>
                     </div>
                 ))
             }
