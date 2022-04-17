@@ -1,0 +1,16 @@
+.footer{
+
+    &__link{
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+        color:  #0A142F;
+        text-decoration: none;
+        font-family: 'Josefin Sans';
+        margin: 15px;
+    }
+
+    &__nav{
+        display: flex;
+    }
+}

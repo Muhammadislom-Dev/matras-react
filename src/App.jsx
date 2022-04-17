@@ -13,6 +13,7 @@ import Homepage from './components/Homepage/Homepage';
 // import { Swiper } from 'swiper/react';
 import Swiper from './components/Swiper/Swiper';
 import Sublimepage from './components/Sublimepage/Sublimepage';
+import Footer from './components/Footer/Footer';
 
 
 function App() { 
@@ -31,6 +32,7 @@ function App() {
        <Homepage />
        <Swiper />
        <Sublimepage />
+       <Footer />
     </div>
   );
 }
