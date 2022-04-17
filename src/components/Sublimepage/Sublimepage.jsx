@@ -16,13 +16,15 @@ return(
             <div class="col-xl-5 col-lg-6 col-md-12">
                 <p className='sublimepage__name'>Manzilimiz</p>
                 <div class="py-5 py-lg-0">
-                    <div>
+                    <div className='sublimepage__title'>
                         {active === "firstcard" &&
                         <Card data={Data} cardIndex={0} /> }
                         {active === "secondcard" &&
                         <Card data={Data} cardIndex={1} /> }
                         {active === "thirstcard" &&
                         <Card data={Data} cardIndex={2} /> }
+                        {active === "fixed" &&
+                        <Card data={Data} cardIndex={3} /> }
                     </div>
                     <button type="button" class="sublimepage__btn mt-4"><img class="mx-2"
                             src={location} />Geolakatsiya</button>
@@ -31,9 +33,10 @@ return(
             <div class=" col-xl-7 col-lg-6 col-md-12 text-lg-end text-center pb-4">
                 <img src={home} alt="" class="img-fluid" />
                 <div className="sublimepage__list">
-                    <button className='sublimepage__button' onClick={()=> setActive("firstcard") }>12</button>
-                    <button className='sublimepage__button' onClick={()=> setActive("secondcard") }>13</button>
-                    <button className='sublimepage__button' onClick={()=> setActive("thirstcard") }>14</button>
+                    <button className='sublimepage__button' onClick={()=> setActive("firstcard") }></button>
+                    <button className='sublimepage__button' onClick={()=> setActive("secondcard") }></button>
+                    <button className='sublimepage__button' onClick={()=> setActive("thirstcard") }></button>
+                    <button className='sublimepage__button' onClick={()=> setActive("fixed") }></button>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ export default [
     [
         {
             title:"Toshkent, Parkent ko'chasi, 176-uy",
-            name:"Mo’ljal: Qoraqamish 2/1, Tursunxodjayeva ro’parasi, Milliy bog’ metro bekati."
+            name:"Mo’ljal: Qoraqamish 2/1, Tursunxodjayeva ro’parasi, Minor metro bekati."
         }
     ],
     [
@@ -15,6 +15,12 @@ export default [
         {
             title:"Toshkent, Shahriston, 176-uy",
             name:"Mo’ljal: Talabalar turar joyi Shahriston metro bekati."
+        }
+    ],
+    [
+        {
+            title:"Toshkent, Shahriston, 176-uy",
+            name:"Mo’ljal: Talabalar turar joyi Chorsu metro bekati."
         }
     ],
 ]
