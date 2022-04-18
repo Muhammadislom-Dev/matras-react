@@ -29,7 +29,6 @@ function App() {
        <Sublime />
        <Aside />
        <Box />
-       {/* <Sofapage /> */}
        <Homepage />
        <Swiper />
        <Sublimepage />

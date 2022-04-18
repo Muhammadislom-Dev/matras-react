@@ -8,10 +8,7 @@ const Homepage = () =>{
             <div className="container">
             <div className="row align-items-center g-0">
                 <div 
-                 data-aos="fade-right"
-                 data-aos-offset="300"
-                 data-aos-easing="ease-in-sine"
-                 data-aos-duration="2000"
+                 
                 className="col-xl-5 col-lg-6 col-md-12">
                     <div className="py-5 py-lg-0">
                        <p className='homepage__text' >Libero erat praesent ullamcorper eget tortor sed et. Nec id lobortis gravida vitae. Scelerisque id fusce vitae ut. Integer sed vulputate sed nec. Arcu id mattis erat et id. </p>
@@ -29,10 +26,7 @@ const Homepage = () =>{
                     </div>
                 </div>
                 <div 
-                 data-aos="fade-left"
-                 data-aos-offset="300"
-                 data-aos-easing="ease-in-sine"
-                 data-aos-duration="2000"
+                 
                 className=" col-xl-7 col-lg-6 col-md-10 text-lg-end text-center " >
                     <img src={matras5} alt="" className="img-fluid"  />
                 </div>
