@@ -33,8 +33,8 @@ function App() {
        <Homepage />
        <Swiper />
        <Sublimepage />
-       <Footer />
        <Form />
+       <Footer />
     </div>
   );
 }
