@@ -56,10 +56,10 @@ return(
                 {active === "fixed" && 
                 <Card date={datas} cardIndexs={3} /> }
                 <div className="sublimepage__list">
-                    <button className='sublimepage__button' onClick={()=> setActive("firstcard") }></button>
-                    <button className='sublimepage__button' onClick={()=> setActive("secondcard") }></button>
-                    <button className='sublimepage__button' onClick={()=> setActive("thirstcard") }></button>
-                    <button className='sublimepage__button' onClick={()=> setActive("fixed") }></button>
+                    <button className='sublimepage__button btn-info' onClick={()=> setActive("firstcard") }></button>
+                    <button className='sublimepage__button btn-info' onClick={()=> setActive("secondcard") }></button>
+                    <button className='sublimepage__button btn-info' onClick={()=> setActive("thirstcard") }></button>
+                    <button className='sublimepage__button btn-info' onClick={()=> setActive("fixed") }></button>
                 </div>
             </div>
         </div>

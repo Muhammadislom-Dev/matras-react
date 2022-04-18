@@ -181,4 +181,25 @@ span{
     .sublime-picture{
         width: 330px;
     }
+
+    .sublime__zooms{
+        width: 45px;
+        height: 45px;
+    }
+
+    .sublime__zoom{
+        width: 30px;
+        height: 30px;
+    }
+    .sublime{
+
+        &__text{
+            font-size: 14px;
+            line-height: 23px;
+        }
+
+        &__name{
+            font-size: 30px;
+        }
+    }
 }

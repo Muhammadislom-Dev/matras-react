@@ -29,3 +29,15 @@
     }
    }
 }
+
+
+@media (max-width:400px) {
+    
+    .header{
+
+        &__name{
+            font-size: 41px;
+            line-height: 55px;
+        }
+    }
+}

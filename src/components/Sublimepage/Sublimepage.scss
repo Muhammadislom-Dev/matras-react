@@ -34,11 +34,9 @@
     &__button{
         width: 131.5px;
         height: 8px;
-        border: 1px solid #01384D;
+        border: none;
     }
-    &__button:active{
-        background-color: #01384D;
-    }
+    
     &__list{
         margin-top: -12px;
     }
@@ -71,4 +69,26 @@
 
 .card{
     border: none;
+}
+
+@media (max-width:400px) {
+    
+    .sublimepage{
+
+        &__name{
+            font-size: 28px;
+            line-height: 28px;
+        }
+        &__text{
+            font-size: 18px;
+            line-height: 18px;
+            margin-left: 25px;
+        }
+
+        &__texts{
+            font-size: 14px;
+            line-height: 20px;
+            margin-left: 25px;
+        }
+    }
 }
