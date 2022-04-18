@@ -1,18 +1,16 @@
-import React from 'react'
+import React from "react";
 
-const Card = ({data, cardIndex}) =>{
+const Card = ({date, cardIndexs}) =>{
     return(
         <div>
             {
-                data[cardIndex].map(item =>(
-                    <div className='card'>
-                        <p className='sublimepage__text'>{item.title}</p>
-                        <p className='sublimepage__texts'>{item.name}</p>
+                date[cardIndexs].map(items =>(
+                    <div className='cards'>
+                        <img className="sublimepage__pictures img-fluid" src={items.img} alt="" />
                     </div>
                 ))
             }
         </div>
     )
 }
-
 export default Card
