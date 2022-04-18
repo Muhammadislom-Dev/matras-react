@@ -1,0 +1,159 @@
+.form{
+    background-color: #EABF9F;
+    padding: 10px 15px;
+    padding-bottom: 15px;
+
+    &__page{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__lists{
+        display: flex;
+    }
+
+    &__name{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        color: #01384D;
+        font-family: 'Josefin Sans';
+    }
+
+    &__text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        color: #01384D;
+        font-family: 'Josefin Sans';
+    }
+
+    &__list{
+        display: flex;
+        align-items: center;
+        width: 350px;
+        height: 50px;
+        background-color: #fff;
+    }
+
+    &__input{
+        border: none;
+        outline: none;
+        width: 350px;
+
+        &::placeholder{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 16px;
+            color: #01384D;
+            opacity: 0.4;
+            padding-left: 10px;
+        }
+    }
+
+    &__btn{
+        width: 180px;
+        height: 50px;
+        border: none;
+        background-color: #01384D;
+        color: #fff;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width:1000px) {
+    
+    .form{
+
+        &__input{
+            width: 250px;
+        }
+
+        &__list{
+            width: 300px;
+        }
+
+        &__page{
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width:950px) {
+    
+    .form{
+
+        &__input{
+            width: 250px;
+        }
+    }
+}
+
+
+@media (max-width:570px) {
+    
+    .form{
+
+        &__list{
+            width: 240px;
+            height: 45px;
+        }
+        &__btn{
+            width: 130px;
+            height: 45px;
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width:460px) {
+    
+
+    .form{
+        
+        &__lists{
+            flex-direction: column;
+        }
+
+        &__list{
+            width: 350px;
+        }
+        &__btn{
+            width: 350px;
+            margin-top: 15px;
+        }
+
+        &__name{
+            font-size: 28px;
+            line-height: 24px;
+        }
+
+        &__text{
+            font-size: 11px;
+            line-height: 23px;
+        }
+    }
+}
+
+@media (max-width:380px) {
+    
+    .form{
+
+        &__list{
+            width: 280px;
+        }
+
+        &__input{
+            
+            &::placeholder{
+                padding: 5px;
+            }
+        }
+
+        &__btn{
+            width: 280px;
+        }
+    }
+}

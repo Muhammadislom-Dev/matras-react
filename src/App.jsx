@@ -14,6 +14,7 @@ import Homepage from './components/Homepage/Homepage';
 import Swiper from './components/Swiper/Swiper';
 import Sublimepage from './components/Sublimepage/Sublimepage';
 import Footer from './components/Footer/Footer';
+import Form from './components/Form/Form';
 
 
 function App() { 
@@ -33,6 +34,7 @@ function App() {
        <Swiper />
        <Sublimepage />
        <Footer />
+       <Form />
     </div>
   );
 }
