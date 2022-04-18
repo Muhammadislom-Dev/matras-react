@@ -32,3 +32,18 @@
         }
     }
 }
+
+@media (max-width:380px) {
+    
+    .section{
+
+        &__number, &__numbers{
+            font-size: 50px;
+            line-height: 50px;
+        }
+
+        &__text{
+            font-size: 16px;
+        }
+    }
+}

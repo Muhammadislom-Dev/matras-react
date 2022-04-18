@@ -37,8 +37,8 @@ return(
                     <p className="footer__text mt-4">
                         © 2021 Mattrassue. Barcha huquqlar himoyalangan.
                     </p>
-                        <a href="#" className="footer__links  active ps-5">
-                            <img className='footer__img' src={arrows} alt="" />
+                        <a href="#" className="footer__links  active ">
+                            <img className='footer__img ' src={arrows} alt="" />
                         </a>
                 </nav>
             </div>
@@ -47,7 +47,7 @@ return(
                     <div className='footer__lists'>
                         <p>designed and developed in</p>
                     </div>
-                    <img src={group} alt="" />
+                    <img className='' src={group} alt="" />
                 </nav>
             </div>
         </div>
