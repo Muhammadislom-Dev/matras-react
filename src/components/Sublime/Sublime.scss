@@ -136,7 +136,7 @@ span{
     color: #01384D;
 }
 
-@media (max-width:400px) {
+@media (max-width:500px) {
 
     .sublime__list{
         margin-bottom: -80px;
@@ -150,6 +150,52 @@ span{
         margin-left: 55px;
     }
 }
+@media (max-width:600px) {
+
+    .sublime__list{
+        margin-bottom: -80px;
+        margin-left: -40px;
+    }
+
+    .sublime__full{
+        margin-left: 0px;
+    }
+    .sublime__nums{
+        margin-left: 55px;
+    }
+}
+@media (max-width:700px) {
+
+    .sublime__list{
+        margin-bottom: -80px;
+        margin-left: -70px;
+    }
+
+    .sublime__full{
+        margin-left: 0px;
+    }
+    .sublime__nums{
+        margin-left: 55px;
+    }
+    .sublime__text{
+        padding-top: 20px;
+    }
+}
+
+@media (max-width:400px) {
+
+    .sublime__list{
+        margin-bottom: -80px;
+        margin-left: -40px;
+    }
+
+    .sublime__full{
+        margin-left: 0px;
+    }
+    .sublime__nums{
+        // margin-left: 55px;
+    }
+}
 
 @media (max-width:500px) {
     
@@ -159,6 +205,11 @@ span{
     .sublime-picture{
         width: 350px;
     }
+    .sublime__list{
+        margin-bottom: -90px;
+        margin-left: -60px;
+    }
+
 }
 
 @media (max-width:450px) {
@@ -170,6 +221,11 @@ span{
     .sublime-picture{
         width: 300px;
     }
+    .sublime__list{
+        margin-bottom: -80px;
+        margin-left: -40px;
+    }
+
 }
 
 @media (max-width:400px) {
