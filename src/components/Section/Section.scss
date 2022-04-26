@@ -1,7 +1,7 @@
 .section{
 
     &__number{
-        font-size: 90px;
+        font-size: 120px;
         line-height: 100px;
         color: #01384D;
         font-weight: bold;
@@ -9,15 +9,15 @@
     }
 
     &__numbers{
-        font-size: 80px;
-        line-height: 99px;
+        font-size: 120px;
+        line-height: 100px;
         color: #01384D;
         font-weight: bold;
         font-family: 'Josefin Sans';
     }
 
     &__text{
-        font-size: 18px;
+        font-size: 20px;
         line-height: 28px;
         font-weight: bold;
         color: #01384D;
@@ -44,6 +44,36 @@
 
         &__text{
             font-size: 16px;
+        }
+    }
+}
+
+@media (max-width:500px) {
+    
+    .section{
+
+        &__number, &__numbers{
+            font-size: 80px;
+            line-height: 60px;
+        }
+
+        &__text{
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width:800px) {
+    
+    .section{
+
+        &__number, &__numbers{
+            font-size: 80px;
+            line-height: 60px;
+        }
+
+        &__text{
+            font-size: 18px;
         }
     }
 }
