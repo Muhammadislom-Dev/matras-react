@@ -101,10 +101,64 @@
 
     .aside__list{
         margin-bottom: -80px;
+        margin-left: -20px;
+    }
+
+    .aside__name{
+        font-size: 30px;
+        // color: red;
+    }
+}
+@media (max-width:500px) {
+
+    .aside__list{
+        margin-bottom: -90px;
         margin-left: -40px;
     }
 
     .aside__name{
         font-size: 30px;
+    }
+}
+
+@media (max-width:600px) {
+
+    .aside__list{
+        margin-left: -80px;
+        margin-bottom: -90px;
+    }
+
+    .aside__name{
+        font-size: 30px;
+    }
+    .aside__text{
+        padding-top: 30px;
+    }
+}
+@media (max-width:770px) {
+
+    .aside__list{
+        margin-left: -80px;
+        margin-bottom: -90px;
+    }
+
+    .aside__name{
+        font-size: 30px;
+    }
+    .aside__text{
+        padding-top: 30px;
+    }
+}
+
+@media (max-width:390px) {
+    .aside__list{
+        margin-left: -35px;
+        margin-bottom: -90px;
+    }
+}
+@media (max-width:440px) {
+    .aside__list{
+        margin-left: -45px;
+        margin-bottom: -90px;
     }
 }
