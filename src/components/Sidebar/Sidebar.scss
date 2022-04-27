@@ -259,3 +259,23 @@
         }
     }
 }
+
+@media (max-width:400px) {
+    
+    .navbar{
+
+        &__linkss{
+            margin-left: 15px;
+        }
+        &-nav{
+            margin-left: -14px;
+        }
+        &-text{
+            margin-left: -10px;
+        }
+        &__btn{
+            margin-left: -5px;
+            margin-top: 15px;
+        }
+    }
+}
