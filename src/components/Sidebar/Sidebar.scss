@@ -98,7 +98,8 @@
         border-radius: 5px;
         box-sizing: border-box;
         outline: none;
-        padding: 8px;
+        padding: 5px;
+        margin-right: 15px;
 
         &::placeholder{
         font-weight: 400;
@@ -117,7 +118,7 @@
         border-radius: 0px 5px 5px 0px;
         border: 2px solid #01384D;
         outline: none;
-        padding: 8px;
+        padding: 5px;
 
         &::placeholder{
             font-weight: 400;
@@ -177,6 +178,13 @@
         align-items: center;
     }
 
+    &__names{
+        color: #01384D;
+        font-weight: 600;
+        line-height: 28px;
+        font-size: 28px;
+    }
+
     &__plus{
         width:70px;
         height: 50px;
@@ -232,6 +240,7 @@
     &__button{
         width: 320px;
         height: 45px;
+        margin-right: 15px;
         background-color: #01384D;
         color: #fff;
         border-radius: 5px;

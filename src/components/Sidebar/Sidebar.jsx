@@ -96,7 +96,7 @@ return(
                         aria-label="Close"></button>
                 </div>
                 <div className="modal-header header__modal">
-                    <h2 className="sidebar__names mx-4 px-3">Buyurtma qilish</h2>
+                    <h2 className="sidebar__names ">Buyurtma qilish</h2>
                 </div>
                 <div className="modal-body">
                     <form className='navbar__form'>
