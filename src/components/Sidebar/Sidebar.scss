@@ -96,6 +96,7 @@
         border-radius: 5px;
         box-sizing: border-box;
         outline: none;
+        padding: 8px;
 
         &::placeholder{
         font-weight: 400;
@@ -114,6 +115,7 @@
         border-radius: 0px 5px 5px 0px;
         border: 2px solid #01384D;
         outline: none;
+        padding: 8px;
 
         &::placeholder{
             font-weight: 400;
@@ -177,7 +179,7 @@
         height: 50px;
         border: 2px solid #01384D;
         box-sizing: border-box;
-        border-radius: 5px;
+        border-radius: 5px 0px 0px 5px;
         background-color: #fff;
         outline: none;
         color: #01384D;
@@ -185,6 +187,26 @@
         font-size: 24px;
         line-height: 24px;
         font-family: 'Josefin Sans';
+        text-align: center;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+    &__pluss{
+        width:70px;
+        height: 50px;
+        border: 2px solid #01384D;
+        box-sizing: border-box;
+        border-radius: 0px 5px 5px 0px;
+        background-color: #fff;
+        outline: none;
+        color: #01384D;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        font-family: 'Josefin Sans';
+        text-align: center;
+        padding-top: 10px;
+        cursor: pointer;
     }
 
     &__box{
@@ -192,7 +214,6 @@
         height: 50px;
         border: 2px solid #01384D;
         box-sizing: border-box;
-        border-radius: 5px;
         background-color: #fff;
         text-align: center;
     }

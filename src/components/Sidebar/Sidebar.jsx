@@ -116,9 +116,9 @@ return(
                         <h3 className='navbar__product'>Miqdorni tanlang</h3>
 
                         <div className="sidebar__lists mt-2">
-                            <button className="sidebar__plus">-</button>
+                            <div className="sidebar__plus">-</div>
                             <div className="sidebar__box"><p className='sidebar__number'>1</p></div>
-                            <button className="sidebar__plus">+</button>
+                            <div className="sidebar__pluss">+</div>
                         </div>
                         <button type="button" className='sidebar__button'>
                            Yuborish
