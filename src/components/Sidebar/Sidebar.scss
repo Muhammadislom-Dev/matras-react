@@ -3,15 +3,16 @@
     &__link{
         font-weight: 600;
         font-size: 14px;
+        padding: 10px 5px;
         line-height: 12px;
         color: #01384D;
         text-decoration: none;
-        transition: 0.8s;
+        transition: 0.1s;
         font-family: 'Josefin Sans';
 
         &:hover{
-            color: #d1940f;
-            // font-weight: bold;
+            color: #01384D;
+            border-bottom: 3px solid #01384D;
         }
     }
 

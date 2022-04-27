@@ -7,7 +7,7 @@
     }
 
     &__img{
-        width: 650px;
+        width: 600px;
         transition: 1.2s;
 
         &:hover{
@@ -77,10 +77,11 @@
         font-size: 16px;
         line-height: 16px;
         color: #01384D;
-        transition: 0.8s;
+        transition: 0.5s;
 
         &:hover{
             transform: scale(0.9);
+            background-color:  #e3f0fc;
         }
     }
 
