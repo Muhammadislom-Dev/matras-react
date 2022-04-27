@@ -103,4 +103,12 @@
     }
 }
 
+@media (max-width:450px) {
+    
+    .sublimepage{
+        &__button{
+            width: 84px;
+        }
+    }
+}
 
