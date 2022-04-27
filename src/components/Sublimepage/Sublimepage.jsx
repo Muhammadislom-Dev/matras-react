@@ -35,8 +35,10 @@ return(
                         {active === "fixed" &&
                         <Cards data={Data} cardIndex={3} /> }
                     </div>
+                    <div className='sublimepage__lists'>
                     <button type="button" class="sublimepage__btn mt-4"><img class="mx-2"
                             src={location} />Geolakatsiya</button>
+                    </div>
                 </div>
             </div>
             <div 
@@ -44,9 +46,7 @@ return(
             data-aos-anchor="#example-anchor"
             data-aos-offset="500"
             data-aos-duration="2500" 
-            className=" col-xl-7 col-lg-6 col-md-12 text-lg-end text-center pb-4">
-                {/* <img src={home} alt="" class="img-fluid" /> */}
-
+            className=" col-xl-7 col-lg-6 col-md-12 text-lg-end text-center pb-4 ">
                 {active === "firstcard" && 
                 <Card date={datas} cardIndexs={0} /> }
                 {active === "secondcard" && 

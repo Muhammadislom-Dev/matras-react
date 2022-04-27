@@ -51,17 +51,20 @@
     .sublimepage{
 
         &__button{
-            width: 86.5px;
+            width: 78px;
         }
         &__list{
             margin-top: -11px;
         }
 
         &__title{
-            margin-left: 18px;
+            text-align: center;
         }
         &__pictures{
             height: 200px;
+        }
+        &__name, &__lists{
+            text-align: center;
         }
     }
 }
@@ -75,8 +78,9 @@
     .sublimepage{
 
         &__name{
-            font-size: 28px;
-            line-height: 28px;
+            font-size: 38px;
+            line-height: 38px;
+            text-align: center;
         }
         &__text{
             font-size: 18px;
@@ -88,6 +92,15 @@
             font-size: 14px;
             line-height: 20px;
             margin-left: 25px;
+            // color: red;
+        }
+        &__title, &__lists{
+            text-align: center;
+        }
+        &__button{
+            width: 78px;
         }
     }
 }
+
+
