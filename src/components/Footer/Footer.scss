@@ -10,6 +10,10 @@
         margin: 15px;
     }
 
+    &__imgs{
+        height: 50px;
+    }
+
     &__nav{
         display: flex;
     }
@@ -71,6 +75,7 @@
             width: 30px;
             height: 30px;
         }
+        
     }
 }
 

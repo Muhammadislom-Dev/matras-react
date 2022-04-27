@@ -47,7 +47,11 @@ return(
                     <div className='footer__lists'>
                         <p>designed and developed in</p>
                     </div>
-                    <img className='' src={group} alt="" />
+                    <a href="https://abutech.netlify.app/">
+                        <span className="footer__linkss">
+                            <img className='footer__imgs' src={group} alt="" />
+                        </span>
+                    </a>
                 </nav>
             </div>
         </div>

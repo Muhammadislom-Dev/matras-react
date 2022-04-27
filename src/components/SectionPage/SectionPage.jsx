@@ -10,7 +10,7 @@ const SectionPage = () =>{
                        <a href="" className="sectionpage__link">Barchasi</a>
                    </li>
                    <li className="sectionpage__items">
-                       <a href="" className="sectionpage__links">Modal A+</a>
+                       <button href="" className="sectionpage__links">Modal A+</button>
                    </li>
                </ul>
            </div>

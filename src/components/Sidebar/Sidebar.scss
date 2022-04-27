@@ -51,6 +51,7 @@
         line-height: 18px;
         color: #01384D;
         font-family: 'Josefin Sans';
+        transition: 0.3s;
     }
 
     &__linkss{
@@ -164,7 +165,8 @@
 
 .modal-content{
     height: 520px;
-    width: 360px;
+    width: 370px;
+    text-align: center;
 }
 
 .sidebar{

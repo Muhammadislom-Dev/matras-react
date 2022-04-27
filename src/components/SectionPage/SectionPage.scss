@@ -33,11 +33,6 @@
     }
 
     &__items{
-        background: #E6EBED;
-        // opacity: 0.4;
-        border-radius: 5px;
-        width: 130px;
-        height: 45px;
         text-align: center;
     }
     &__links{
@@ -48,7 +43,12 @@
         position: relative;
         top: 20%;
         left:0%;
-        text-decoration: none;
+        outline: none;
+        border: none;
+        background: #E6EBED;
+        border-radius: 5px;
+        width: 130px;
+        height: 45px;
     }
 }
 

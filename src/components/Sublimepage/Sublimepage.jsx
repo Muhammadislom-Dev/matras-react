@@ -7,6 +7,7 @@ import Data from './Data'
 import Card from './Card'
 import datas from './datas'
 import Cards from './Cards'
+import { NavLink } from 'react-router-dom'
 
 export default function Sublimepage() {
 const [active, setActive] = useState("firstcard")
@@ -56,10 +57,10 @@ return(
                 {active === "fixed" && 
                 <Card date={datas} cardIndexs={3} /> }
                 <div className="sublimepage__list">
-                    <button className='sublimepage__button btn-info' onClick={()=> setActive("firstcard") }></button>
-                    <button className='sublimepage__button btn-info' onClick={()=> setActive("secondcard") }></button>
-                    <button className='sublimepage__button btn-info' onClick={()=> setActive("thirstcard") }></button>
-                    <button className='sublimepage__button btn-info' onClick={()=> setActive("fixed") }></button>
+                    <button className='sublimepage__button btn-success' onClick={()=> setActive("firstcard") }></button>
+                    <button className='sublimepage__button btn-success' onClick={()=> setActive("secondcard") }></button>
+                    <button className='sublimepage__button btn-success' onClick={()=> setActive("thirstcard") }></button>
+                    <button className='sublimepage__button btn-success' onClick={()=> setActive("fixed") }></button>
                 </div>
             </div>
         </div>
