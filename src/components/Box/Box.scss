@@ -46,7 +46,8 @@
         margin-left: 10px;
     }
     &__video{
-        // height: 300px;
+        border: 2.5px solid #01384D;
+        border-radius:3px ;
     }
 }
 
@@ -258,7 +259,7 @@
         }
     }
 }
-@media (max-width:360px) {
+@media (max-width:370px) {
     
     .box{
 
@@ -276,6 +277,8 @@
         }
         &__name{
             margin-left: 30px;
+            font-size: 26px;
+            line-height: 30px;
         }
     }
 }
