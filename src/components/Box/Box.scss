@@ -140,17 +140,23 @@
             margin-left: -15px;
         }
         &__names{
-            font-size: 45px;
+            font-size: 35px;
+        }
+        &__name{
+            margin-left: 25px;
         }
     }
 }
 
-@media (max-width:390px) {
+@media (max-width:400px) {
     
     .box{
 
         &__video{
             width: 350px;
+        }
+        &__name{
+            margin-left: 40px;
         }
     }
 }
@@ -182,7 +188,7 @@
             line-height: 45px;
         }
         &__name{
-            margin-left: 30px;
+            margin-left: 40px;
             font-size: 26px;
             line-height: 30px;
         }
