@@ -40,6 +40,7 @@
         border: none;
         outline: none;
         width: 350px;
+        padding: 10px;
 
         &::placeholder{
             font-weight: 400;
@@ -47,7 +48,6 @@
             line-height: 16px;
             color: #01384D;
             opacity: 0.4;
-            padding-left: 10px;
         }
     }
 
@@ -60,6 +60,13 @@
         font-weight: 600;
         font-size: 18px;
         line-height: 18px;
+        transition: 2s;
+
+        &:hover{
+            background-color: #fff;
+            border: 3px solid #01384D;
+            color: #01384D;
+        }
     }
 }
 
