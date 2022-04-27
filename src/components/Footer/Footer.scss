@@ -73,3 +73,32 @@
         }
     }
 }
+
+@media (max-width:450px) {
+    
+    .footer{
+
+        &__link{
+            font-size: 10px;
+        }
+        &__nav{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width:500px) {
+    
+    .footer{
+
+        &__link{
+            font-size: 14px;
+            line-height: 18px;
+        }
+        &__nav{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

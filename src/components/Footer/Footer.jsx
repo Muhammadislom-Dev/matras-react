@@ -13,12 +13,12 @@ return(
     <div className="container">
         <div className="row align-items-center  py-2">
             <div className="col-12 col-md-6">
-                <nav className="nav footer__nav">
+                <div className="nav footer__nav">
                     <a className="footer__link active ps-0" href="#" >Biz haqimizda</a>
                     <a className="footer__link" href="#" >Katalog</a>
                     <a className="footer__link" href="#" >Aksiya</a>
                     <a className="footer__link" href="#" >Manzilimiz</a>
-                </nav>
+                </div>
             </div>
             <div className="col-12 col-md-6">
                 <nav className="nav nav-footer justify-content-center justify-content-md-end">
