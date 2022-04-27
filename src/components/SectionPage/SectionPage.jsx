@@ -4,7 +4,7 @@ const SectionPage = () =>{
     return(
         <div className='sectionpage'>
            <div className="container">
-               <h3 className='sectionpage__name'>Bizning mahsulotlar</h3>
+               <h3 className='sectionpage__name mt-5'>Bizning mahsulotlar</h3>
                <ul className="sectionpage__list">
                    <li className="sectionpage__item">
                        <a href="" className="sectionpage__link">Barchasi</a>

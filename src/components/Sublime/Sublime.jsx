@@ -20,8 +20,8 @@ const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
 return(
 <div className="sublime">
-  <div className="container sublime__page">
-    <div className="row align-items-center g-0">
+  <div className="container sublime__page mt-5">
+    <div className="row align-items-center g-0 ">
       <button type="button" className="sublime__btn  mt-5">Yangi mahsulot</button>
       <p className="sublime__name p-4 text-center ">
         Ortopedik Eko matras</p>
