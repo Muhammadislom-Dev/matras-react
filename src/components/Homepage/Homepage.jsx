@@ -25,10 +25,9 @@ const Homepage = () =>{
                         </p>
                     </div>
                 </div>
-                <div 
-                 
-                className=" col-xl-7 col-lg-6 col-md-10 text-lg-end text-center " >
-                    <img src={matras5} alt="" className="img-fluid"  />
+                <div   
+                className=" col-xl-7 col-lg-6 col-md-12  text-center " >
+                    <img src={matras5} alt="" className="img-fluid homepage__img"  />
                 </div>
             </div>
             </div>

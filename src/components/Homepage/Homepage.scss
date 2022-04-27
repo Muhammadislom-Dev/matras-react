@@ -24,3 +24,16 @@
     }
 }
 
+@media (max-width:980px) {
+    
+    .homepage{
+
+        &__text{
+            text-align: center;
+            // color: red;
+        }
+        &__img{
+            // margin-left:55px;
+        }
+    }
+}
