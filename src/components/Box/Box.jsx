@@ -11,8 +11,8 @@ const Box = ()=>{
                     Ishlab chiqarish tehnologiyalari
                 </p>
 
-                <div className="p-5  row row-cols-1 row-cols-md-4 g-4 ">
-                <div className="col">
+                <div className="p-5  row row-cols-1 row-cols-md-3 g-4 ">
+                <div className="col box__col">
                       <p className='box__name '>Memoriform</p>
                   <div className="card box__list">
                     <video className="box__video feedback-video" controls preload="metadata" src={video}
@@ -22,7 +22,7 @@ const Box = ()=>{
                     </div>
                   </div>
                 </div>
-                <div className="col ">
+                <div className="col box__col ">
                      <p className='box__name'>Tabiiy lateks</p>
                   <div className="card box__list ">
                     <video className="box__video feedback-video" controls preload="metadata" src={video}
@@ -32,7 +32,7 @@ const Box = ()=>{
                     </div>
                   </div>
                 </div>
-                <div className="col">
+                <div className="col box__col">
                     <p className='box__name'>Mustaqil prujina</p>
                   <div className="card box__list">
                        <video className="box__video feedback-video" controls preload="metadata" src={video}

@@ -36,7 +36,6 @@
         height: 60px;
         border-radius: 50%;
         border: transparent;
-        // text-align: center;
         position: absolute;
         top: 29%;
         left: 41%;
@@ -46,111 +45,104 @@
         margin:5px;
         margin-left: 10px;
     }
-}
-
-@media (max-width:370px) {
-    
-    .box{
-
-        &__names{
-            font-weight: 700;
-            font-size: 28px;
-            line-height: 36px;
-        }
-
-        &__name{
-            font-weight: 600;
-            font-size: 26px;
-            line-height: 26px;
-        }
-
-        &__text{
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 24px;
-        }
-
-
-    }
-    .card{
-        width: 320px;
-        margin-left: -15px;
-    }
-}
-
-@media (max-width:420px) {
-    
-    .box{
-
-        &__names{
-            font-weight: 700;
-            font-size: 28px;
-            line-height: 36px;
-        }
-
-        &__name{
-            font-weight: 600;
-            font-size: 26px;
-            line-height: 26px;
-        }
-
-        &__text{
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 24px;
-        }
-
-
-    }
-    .card{
-        width: 340px;
-        margin-left: -45px;
-    }
-
     &__video{
-        width: 100%;
-        height: 100%;
+        // height: 300px;
     }
 }
 
-
-@media (max-width:400px) {
+// @media (max-width:370px) {
     
-    .box{
+//     .box{
 
-        &__video{
-            width: 100%;
-            border: 2px solid #01384D;
-            height: 100%;
-            border-radius: 2px;
-        }
-    }
-}
-@media (max-width:420px) {
+//         &__names{
+//             font-weight: 700;
+//             font-size: 28px;
+//             line-height: 36px;
+//         }
+
+//         &__name{
+//             font-weight: 600;
+//             font-size: 26px;
+//             line-height: 26px;
+//         }
+
+//         &__text{
+//             font-weight: 400;
+//             font-size: 16px;
+//             line-height: 24px;
+//         }
+
+
+//     }
+//     .card{
+//         width: 320px;
+//         margin-left: -15px;
+//     }
+// }
+
+// @media (max-width:420px) {
     
-    .box{
+//     .box{
 
-        &__video{
-            width: 100%;
-            border: 2px solid #01384D;
-            height: 100%;
-            border-radius: 2px;
-            margin-left: 25px;
-        }
-        &__text{
-            margin-left: 30px;
-        }
-    }
-}
+//         &__names{
+//             font-weight: 700;
+//             font-size: 28px;
+//             line-height: 36px;
+//         }
 
-@media (max-width:500px) {
+//         &__name{
+//             font-weight: 600;
+//             font-size: 26px;
+//             line-height: 26px;
+//         }
+
+//         &__text{
+//             font-weight: 400;
+//             font-size: 16px;
+//             line-height: 24px;
+//         }
+
+
+//     }
+//     .card{
+//         width: 340px;
+//         margin-left: -45px;
+//     }
+// }
+
+
+// @media (max-width:400px) {
     
-    .box{
-        &__video{
-            width: 100%;
-        }
-    }
-}
+//     .box{
+
+//         &__video{
+//             width: 250px;
+//             border: 2px solid #01384D;
+//             height: 100%;
+//             border-radius: 2px;
+//             margin-left: 15px;
+//         }
+//         &__text{
+//             color: red;
+//         }
+//     }
+// }
+// @media (max-width:430px) {
+    
+//     .box{
+
+//         &__video{
+//             border: 2px solid #01384D;
+//             height: 100%;
+//             border-radius: 2px;
+//         }
+//         &__text{
+//             margin-left: 30px;
+//         }
+//     }
+// }
+
+
 @media (max-width:600px) {
     
     .box{
@@ -161,45 +153,129 @@
     }
 }
 
-@media (max-width:700px) {
+@media (max-width:900px) {
     
     .box{
-        &__video{
-            width: 580px;
-            height: 100%;
-            margin-left: -80px;
-        }
-    }
-}
-@media (max-width:800px) {
-    
-    .box{
-        &__video{
-            width: 600px;
-            height: 100%;
-            margin-left: -90px;
+        &__col{
+            width: 310px;
         }
     }
 }
 
-@media (min-width:770px) {
+@media (max-width:1000px) {
     
     .box{
-        &__video{
-            width: 700px;
-            height: 100%;
-            margin-left: -50px;
+        &__col{
+            width: 280px;
         }
-
-        
         &__text{
-            width: 520px;
-            margin-left: 25px;
+            font-size: 14px;
+            line-height: 18px;
         }
+    }
+}
 
+@media (max-width:1070px) {
+    
+    .box{
+        &__col{
+            width: 280px;
+        }
+        &__text{
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+}
+
+@media (max-width:770px) {
+    
+    .box{
+
+        &__col{
+            width: 700px;
+        }
+        &__video{
+            width: 500px;
+            margin-left: -40px;
+        }
+    }
+}
+
+@media (max-width:530px) {
+    
+    .box{
+
+        &__video{
+            width: 420px;
+            margin-left: -20px;
+            
+        }
+        &__col{
+            padding: 10px;
+            margin-left: -15px;
+        }
+        &__text{
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+}
+
+@media (max-width:450px) {
+    
+    .box{
+        &__video{
+            width: 360px;
+        }
+        &__text{
+            width: 310px;
+            margin-left: -15px;
+        }
+        &__names{
+            font-size: 45px;
+        }
+    }
+}
+
+@media (max-width:390px) {
+    
+    .box{
+
+        &__video{
+            width: 350px;
+        }
+    }
+}
+
+@media (max-width:380px) {
+    
+    .box{
+
+        &__video{
+            width: 340px;
+            margin-left: -23px;
+        }
+    }
+}
+@media (max-width:360px) {
+    
+    .box{
+
+        &__video{
+            width: 320px;
+            margin-left: -25px;
+        }
+        &__text{
+            font-size: 14px;
+            margin-left: -35px;
+        }
+        &__names{
+            font-size: 35px;
+            line-height: 45px;
+        }
         &__name{
-            width: 250px;
-            margin-left: 95px;
+            margin-left: 30px;
         }
     }
 }
